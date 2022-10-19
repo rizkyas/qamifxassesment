@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Kata Sandi_vs-inputx vs-input--input _61cc14</name>
+   <tag></tag>
+   <elementGuidId>5ab60b1e-8abc-442b-ba30-92fd446278a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='password']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.vs-component.vs-con-input-label.vs-input.w-full.vs-input-primary.isFocus > div.vs-con-input > input.vs-inputx.vs-input--input.normal.hasValue.hasIcon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>vs-inputx vs-input--input normal hasValue hasIcon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__layout&quot;)/div[@class=&quot;page-login h-screen flex w-full bg-img vx-row no-gutter items-center justify-center&quot;]/div[@class=&quot;vx-col sm:w-1/2 md:w-1/2 lg:w-3/4 xl:w-3/5 sm:m-0 m-4&quot;]/div[@class=&quot;vx-card&quot;]/div[@class=&quot;vx-card__collapsible-content vs-con-loading__container&quot;]/div[@class=&quot;full-page-bg-color&quot;]/div[@class=&quot;vx-row no-gutter justify-center items-center&quot;]/div[@class=&quot;vx-col sm:w-full md:w-full lg:w-1/2 column-right&quot;]/div[@class=&quot;px-8 pt-8&quot;]/div[2]/form[1]/div[@class=&quot;mt-3&quot;]/div[@class=&quot;vx-input-group flex&quot;]/div[@class=&quot;vx-input-group-default flex-grow&quot;]/div[@class=&quot;vs-component vs-con-input-label vs-input w-full vs-input-primary isFocus&quot;]/div[@class=&quot;vs-con-input&quot;]/input[@class=&quot;vs-inputx vs-input--input normal hasValue hasIcon&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='password']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__layout']/div/div/div/div/div/div/div[2]/div/div[2]/form/div[2]/div/div/div/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/input</value>
+   </webElementXpaths>
+</WebElementEntity>

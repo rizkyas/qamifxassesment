@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Transaction,,,,2022-10-19 08:56:27,2022-10-19 08:56:29,2.259s,PASSED
+,,,,,,,
+Test Cases/RunQuery,,,,2022-10-19 08:56:27,2022-10-19 08:56:29,1.829s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2022-10-19 08:56:27,2022-10-19 08:56:27,0.018s,PASSED
+"runFeatureFile(""Include/features/TransactionQuery/RunQueryTransaction.feature"")",,,,2022-10-19 08:56:28,2022-10-19 08:56:29,0.898s,PASSED
+Start listener action : sampleAfterTestCase,,,,2022-10-19 08:56:29,2022-10-19 08:56:29,0.443s,ERROR

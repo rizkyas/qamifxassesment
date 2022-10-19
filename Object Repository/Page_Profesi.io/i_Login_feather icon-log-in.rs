@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Login_feather icon-log-in</name>
+   <tag></tag>
+   <elementGuidId>6b14a9d6-0670-4087-9f0c-1fcce5ef5e89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__layout']/div/div/div/div/div/div/div[2]/div/div[2]/form/div[4]/button/div[2]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.feather.icon-log-in</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>feather icon-log-in</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__layout&quot;)/div[@class=&quot;page-login h-screen flex w-full bg-img vx-row no-gutter items-center justify-center&quot;]/div[@class=&quot;vx-col sm:w-1/2 md:w-1/2 lg:w-3/4 xl:w-3/5 sm:m-0 m-4&quot;]/div[@class=&quot;vx-card&quot;]/div[@class=&quot;vx-card__collapsible-content vs-con-loading__container&quot;]/div[@class=&quot;full-page-bg-color&quot;]/div[@class=&quot;vx-row no-gutter justify-center items-center&quot;]/div[@class=&quot;vx-col sm:w-full md:w-full lg:w-1/2 column-right&quot;]/div[@class=&quot;px-8 pt-8&quot;]/div[2]/form[1]/div[@class=&quot;flex flex-wrap justify-between&quot;]/button[@class=&quot;btn__container w-full md:w-auto lg contained primary&quot;]/div[@class=&quot;content visible&quot;]/i[@class=&quot;feather icon-log-in&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__layout']/div/div/div/div/div/div/div[2]/div/div[2]/form/div[4]/button/div[2]/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/i</value>
+   </webElementXpaths>
+</WebElementEntity>

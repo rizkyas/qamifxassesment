@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "993DE6CD5BC1A2719B79B9EE91C4E979",
+  "keywordClasses": [
+    {
+      "name": "runquery.Transaction",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

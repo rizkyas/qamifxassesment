@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Transaction" time="2.837" tests="1" failures="0" errors="0">
+   <testsuite name="Transaction" tests="1" failures="0" errors="0" time="2.837" skipped="0" timestamp="2022-10-19 11:53:57" hostname="rizky - RizkyAS" id="Test Suites/Transaction">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rizky\\git\\qamifxassesment\\Reports\\20221019_115350\\Transaction\\20221019_115350"/>
+         <property name="logFiles" value="C:\\Users\\rizky\\git\\qamifxassesment\\Reports\\20221019_115350\\Transaction\\20221019_115350\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rizky - RizkyAS"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+      </properties>
+      <testcase name="Test Cases/RunQuery" time="1.555" classname="Test Cases/RunQuery" status="PASSED">
+         <system-out><![CDATA[2022-10-19 11:53:57 - [TEST_CASE][PASSED] - Test Cases/RunQuery: Test Cases/RunQuery
+
+2022-10-19 11:53:57 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-10-19 11:53:57 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-10-19 11:53:57 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-10-19 11:53:58 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/TransactionQuery/RunQueryTransaction.feature"): Feature file: 'Include/features/TransactionQuery/RunQueryTransaction.feature' was passed
+
+2022-10-19 11:53:58 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/TransactionQuery/RunQueryTransaction.feature' and extract report to folder: 'C:\Users\rizky\git\qamifxassesment\Reports\20221019_115350\Transaction\20221019_115350/cucumber_report/1666155238146'...
+
+2022-10-19 11:53:58 - [MESSAGE][PASSED] - Feature file: 'Include/features/TransactionQuery/RunQueryTransaction.feature' was passed
+
+2022-10-19 11:53:58 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'RIZKYAS', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:936)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:921)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:907)
+	at com.kms.katalon.core.webui.common.internal.SmartWait.doSmartWait(SmartWait.java:15)
+	at com.kms.katalon.core.webui.common.internal.SmartWait$doSmartWait.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.InternalSmartWaitGroovyWrapper.execute(InternalSmartWaitGroovyWrapper.groovy:27)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:70)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2927)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot.call(Unknown Source)
+	at mifx.sampleAfterTestCase(mifx.groovy:49)
+	at mifx.invokeMethod(mifx.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:303)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666155230684.run(TempTestSuite1666155230684.groovy:36)
+
+
+2022-10-19 11:53:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-10-19 11:53:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2022-10-19 11:53:58 - [TEST_STEP][PASSED] - path = "Screenshots/" + testCaseId + ".png": null
+
+2022-10-19 11:53:58 - [TEST_STEP][ERROR] - takeScreenshot(path): com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'RIZKYAS', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:936)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:921)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:907)
+	at com.kms.katalon.core.webui.common.internal.SmartWait.doSmartWait(SmartWait.java:15)
+	at com.kms.katalon.core.webui.common.internal.SmartWait$doSmartWait.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.InternalSmartWaitGroovyWrapper.execute(InternalSmartWaitGroovyWrapper.groovy:27)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:70)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2927)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot.call(Unknown Source)
+	at mifx.sampleAfterTestCase(mifx.groovy:49)
+	at mifx.invokeMethod(mifx.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:303)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666155230684.run(TempTestSuite1666155230684.groovy:36)
+
+
+2022-10-19 11:53:59 - [MESSAGE][ERROR] - com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'RIZKYAS', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:936)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:921)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:907)
+	at com.kms.katalon.core.webui.common.internal.SmartWait.doSmartWait(SmartWait.java:15)
+	at com.kms.katalon.core.webui.common.internal.SmartWait$doSmartWait.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.InternalSmartWaitGroovyWrapper.execute(InternalSmartWaitGroovyWrapper.groovy:27)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:70)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2927)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot.call(Unknown Source)
+	at mifx.sampleAfterTestCase(mifx.groovy:49)
+	at mifx.invokeMethod(mifx.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:303)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666155230684.run(TempTestSuite1666155230684.groovy:36)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-19 11:53:57 - [TEST_SUITE][PASSED] - Transaction: Test Cases/RunQuery]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

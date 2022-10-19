@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "B5008053E63AC29B4B77BDAD9DFD8510",
+  "keywordClasses": [
+    {
+      "name": "com.database.TestQuery",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

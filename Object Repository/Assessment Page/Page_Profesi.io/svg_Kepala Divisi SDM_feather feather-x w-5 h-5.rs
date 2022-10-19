@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_Kepala Divisi SDM_feather feather-x w-5 h-5</name>
+   <tag></tag>
+   <elementGuidId>1e1966ec-8ff4-4a6f-904b-085a1704b56c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Kepala Divisi SDM'])[2]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.feather.feather-x.w-5.h-5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>24px</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>24px</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke</name>
+      <type>Main</type>
+      <value>currentColor</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-width</name>
+      <type>Main</type>
+      <value>2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-linecap</name>
+      <type>Main</type>
+      <value>round</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-linejoin</name>
+      <type>Main</type>
+      <value>round</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>feather feather-x w-5 h-5</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;vuesax-app-is-ltr&quot;]/body[@class=&quot;theme-semi-dark&quot;]/div[@class=&quot;vs-component con-vs-popup popup popup-container vs-popup-primary&quot;]/div[@class=&quot;vs-popup&quot;]/div[@class=&quot;vs-popup--content&quot;]/div[@class=&quot;modal-add-asse&quot;]/div[@class=&quot;collapse-section mt-8&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;vs-collapse pt-2 default&quot;]/div[@class=&quot;vs-collapse-item open-item&quot;]/div[@class=&quot;vs-collapse-item--content&quot;]/div[@class=&quot;con-content--item&quot;]/div[@class=&quot;vx-row&quot;]/div[@class=&quot;vx-col w-1/2&quot;]/ul[@class=&quot;checkbox-list&quot;]/div[@class=&quot;vue-recycle-scroller recycle-scroller ready direction-vertical&quot;]/div[@class=&quot;vue-recycle-scroller__item-wrapper&quot;]/div[@class=&quot;vue-recycle-scroller__item-view hover&quot;]/li[@class=&quot;item&quot;]/div[@class=&quot;vx-card choosen card-border&quot;]/div[@class=&quot;vx-card__collapsible-content vs-con-loading__container&quot;]/div[@class=&quot;vx-card__body&quot;]/div[@class=&quot;vx-row&quot;]/div[@class=&quot;vx-col w-1/4 cursor-pointer flex justify-center&quot;]/span[@class=&quot;feather-icon select-none relative&quot;]/svg[@class=&quot;feather feather-x w-5 h-5&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kepala Divisi SDM'])[2]/following::*[name()='svg'][1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Staf Pengelolaan SDM'])[2]/following::*[name()='svg'][1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Staf Perencanaan SDM'])[3]/preceding::*[name()='svg'][1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kepala Bagian Pengelolaan SDM'])[2]/preceding::*[name()='svg'][2]</value>
+   </webElementXpaths>
+</WebElementEntity>

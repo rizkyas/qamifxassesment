@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>transaction</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>4c806d43-5501-4de6-86b7-5086225b1777</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>DBData</driver>
+   <driverClassName>jdbc:mysql://localhost:3306/mifx</driverClassName>
+   <isInternalPath>false</isInternalPath>
+   <password>VHM0cTFm</password>
+   <query>SELECT a.trx_id  AS &quot;InvoiceNo&quot;,b.name AS &quot;Wholesaler&quot;,c.courier_service_name AS &quot;DeliveryService&quot;,a.date_order AS &quot;DateOrder&quot; FROM `transaction` a
+left JOIN wholesaler b ON b.id = a.wholesaler_id
+left JOIN courier c ON c.id = b.courier_service_id
+WHERE b.id = 7</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>root</user>
+   <usingGlobalDBSetting>true</usingGlobalDBSetting>
+</DataFileEntity>
